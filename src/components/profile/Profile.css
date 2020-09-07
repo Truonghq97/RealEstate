@@ -1,0 +1,18 @@
+.form-content {
+    background-color: #ffffff;
+}
+
+.profile-icon {
+    font-size: 20px;
+    padding-right: 10px;
+    /* color: black; */
+}
+
+.profile-thumb {
+    width: 128px;
+    height: 128px;
+}
+
+.profile-img-controls {
+    align-self: center;
+}
