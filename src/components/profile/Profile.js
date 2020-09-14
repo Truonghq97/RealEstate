@@ -7,7 +7,6 @@ import Footer from "../partials/Footer";
 
 import "./Profile.css";
 
-
 function Profile() {
   return (
     <div>
@@ -18,30 +17,33 @@ function Profile() {
       {/* Start content Area */}
       <section className="content">
         <div className="container">
-   
           <div className="row">
             <div className="col text-center">
               <h2>Profile</h2>
             </div>
           </div>
-   
+
           <div className="content-head">
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link>
-                  <i class="fas fa-id-card profile-icon"></i>
-                  <Link to="/home">Profile</Link>
+                  <Link to="/profile">
+                    <i class="fas fa-id-card profile-icon"></i>
+                    Profile
+                  </Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <i class="fas fa-bars profile-icon"></i>
-                  <Link to="/home">Tin Đã Đăng</Link>
+                  <Link to="/my-properties">
+                    <i class="fas fa-bars profile-icon"></i>
+                    Tin Đã Đăng
+                  </Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>
           </div>
-          
+
           <div className="form-content">
             <div className="row">
               <div className="form-row ml-4">
@@ -121,7 +123,6 @@ function Profile() {
               </div>
             </div>
           </div>
-       
         </div>
       </section>
       {/* End content Area */}
