@@ -11,6 +11,7 @@ import propertyDetail from './components/property_detail/propertyDetail';
 import Search from './components/partials/Search'
 import Submit from './components/post/Post'
 import Profile from './components/profile/Profile'
+import myProperties from './components/my-properties/myProperties';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/search" component={Search} />
         <Route exact path="/submit" component={Submit} />
         <Route exact path="/profile" component={Profile} />
+        <Route exact path="/my-properties" component={myProperties} />
       </div>
     </Router>
 
