@@ -33,18 +33,20 @@ function myProperties() {
               <Nav>
                 <Nav.Item>
                   <Nav.Link>
-                    <Link to="/profile">
+                    <Link to="/profile" className="user-item " style={{textDecoration: 'none'}}>
                       <i class="fas fa-id-card profile-icon"></i>
-                      Profile
+                      <p className="user-text-profile">Profile</p>
                     </Link>
+                    <span className="span1"></span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link>
-                    <Link to="/my-properties">
-                      <i class="fas fa-bars profile-icon"></i>
-                      Tin Đã Đăng
+                    <Link to="/my-properties" className="user-item-active" style={{textDecoration: 'none'}}>
+                      <i class="fas fa-bars profile-icon-active"></i>
+                      <p className="user-text-post">Tin Đã Đăng</p>
                     </Link>
+                    <span className="span"></span>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

@@ -5,9 +5,63 @@
 
 .user-item-box {
   display: flex;
-  align-self: center;
+  align-items: center;
 }
 
+i {
+  color: #2E2E2E;
+}
+
+/* Css Profile */
+
+.user-item {
+  display: flex;
+  align-items: center;
+}
+
+.user-text-profile {
+  color: #848484;
+  margin: 0;
+}
+
+.profile-icon {
+  color: #848484;
+}
+
+.user-item:hover {
+  border-bottom: 3px solid #1ea69a;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.user-item:hover > p {
+  color: black;
+}
+
+.user-item:hover > i {
+  color: black;
+}
+
+/* Css Tin Đã Đăng */
+
+.user-item-active {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.user-text-post {
+  color: black;
+  margin: 0;
+}
+
+.span {
+  display: block;
+  border-bottom: 3px solid #1ea69a;
+  width: 100%;
+  padding-bottom: 4px;
+}
+/* ==================================== */
 .propertie-detail {
   background-color: #f2f2f2;
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);

@@ -27,17 +27,18 @@ function Profile() {
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/profile">
-                    <i class="fas fa-id-card profile-icon"></i>
-                    Profile
+                  <Link to="/profile" className="user-item-active" style={{textDecoration: 'none'}}>
+                    <i class="fas fa-id-card profile-icon-active"></i>
+                    <p className="text-profile">Profile</p>
                   </Link>
+                  <span className="span"></span>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/my-properties">
+                  <Link to="/my-properties" className="user-item" style={{textDecoration: 'none'}}>
                     <i class="fas fa-bars profile-icon"></i>
-                    Tin Đã Đăng
+                    <p className="text-post">Tin Đã Đăng</p>
                   </Link>
                 </Nav.Link>
               </Nav.Item>
